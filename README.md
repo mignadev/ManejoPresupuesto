@@ -14,13 +14,13 @@ Características principales:
   Exportación de transacciones a Excel.
   Sistema de usuarios propio con opción de recuperación de contraseña.
 
-Configuración de correo para recuperación de contraseña
+Configuración de correo para recuperación de contraseña:
 
   Para que la función de “Olvidaste tu contraseña” funcione, se utiliza un correo electrónico que recibe la nueva contraseña.
   El correo y su contraseña se configuran en “Administrar secretos del usuario” de Visual Studio.
   Los secretos se almacenan localmente y no se suben a GitHub.
 
-Cómo ejecutar el proyecto
+Cómo ejecutar el proyecto:
 
   Restaurar la base de datos ejecutando el script SQL incluido en la carpeta /Database.
   Configurar los secretos del usuario en Visual Studio (correo y contraseña).
