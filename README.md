@@ -37,7 +37,13 @@ Configuración del correo para recuperación de contraseña
             "PASSWORD": "tu_contraseña_de_aplicacion_de_google"
           }
         }
-        
+
+Dependencias / Paquetes Nuget
+  AutoMapper	16.1.1 (tiene que ser esa version mínimo)
+  ClosedXML	0.105.0	
+  Dapper	2.1.66	
+  Microsoft.Data.SqlClient	6.1.1	
+
 Cómo ejecutar el proyecto
 
   Abrir Visual Studio y abrir el proyecto.  
