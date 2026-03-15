@@ -38,7 +38,9 @@ Configuración del correo para recuperación de contraseña
           }
         }
 
+
 Dependencias / Paquetes Nuget
+
   AutoMapper	16.1.1 (tiene que ser esa version mínimo)
   ClosedXML	0.105.0	
   Dapper	2.1.66	
