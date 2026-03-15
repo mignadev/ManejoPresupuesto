@@ -29,9 +29,11 @@ Configuración del correo para recuperación de contraseña
       
       2. archivo Secrets de usuario en Visual Studio (datos sensibles)     
       Aquí se almacenan el correo y la contraseña que usará la aplicación para enviar emails. Debe escribirse así:
-        "CONFIGURACIONES_EMAIL": {
-          "EMAIL": "noreply.manejopresupuesto@gmail.com",
-          "PASSWORD": "tu_contraseña"
+        {
+          "CONFIGURACIONES_EMAIL": {
+            "EMAIL": "tu_correo@gmail.com",
+            "PASSWORD": "tu_contraseña"
+          }
         }
         
 Cómo ejecutar el proyecto
