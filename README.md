@@ -49,12 +49,11 @@ Dependencias / Paquetes Nuget
 Cómo ejecutar el proyecto
 
   Abrir Visual Studio y abrir el proyecto.  
-  Asegurarse de tener SQL Server instalado y en funcionamiento.
-  Ejecutar el script SQL incluido en la carpeta /Database para crear y poblar la base de datos en SQL Server.
+  Tener el SQL Server instalado y en funcionamiento.
+  Descargar dependencias y paquetes Nuget
+  Ejecutar el script SQL incluido en la carpeta /Database para crear la base de datos en SQL Server.
   (ejecutar el script en master, ya que el script de sql incluye la creación de la base de datos)
   Configurar los secretos del usuario en Visual Studio:
   Correo electrónico y contraseña (o contraseña de aplicación de Google para evitar conflictos con problemas de seguridad) para la recuperación de contraseña.
-  Restaurar paquetes NuGet si es necesario.
-Configurar los secretos del usuario en Visual Studio:
 Correo electrónico y contraseña para recuperación de contraseña.
 Restaurar paquetes NuGet si es necesario.
